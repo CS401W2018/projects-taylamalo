@@ -1,0 +1,9 @@
+ main p {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+footer p{
+    color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
