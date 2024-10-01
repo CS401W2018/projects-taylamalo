@@ -1,0 +1,21 @@
+body {
+    
+    background-color: darkslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#one {
+    color: rgb(176, 168, 168);
+}
+.emp { 
+    color: tan;
+}
+.headers{ 
+    color: whitesmoke;
+    font-family: jokerman;
+}
+.sub{
+    color: antiquewhite;
+}
+.foot{
+    color: antiquewhite;
+}
