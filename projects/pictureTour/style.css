@@ -1,0 +1,15 @@
+.current {
+    color: lightblue;
+}
+body{
+    background-image: url(background.jpg);
+
+}
+.additional{
+    background-image: url(orcasoutline.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.list{
+    list-style-image: url(icon.png);
+}
