@@ -2,7 +2,9 @@
     color: lightblue;
 }
 body{
+    background-color: purple;
     background-image: url(background.jpg);
+    font-family: 'Times New Roman', Times, serif;
 
 }
 .additional{
