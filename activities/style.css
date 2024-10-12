@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 300px;
+    background-color: lightcoral;
+}
+nav{
+    width: 300px;
+}
+#treepic{
+    width: 250px;
+    
+}
+#treepic img{
+    width: 200px;
+}
