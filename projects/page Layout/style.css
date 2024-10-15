@@ -1,0 +1,91 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(213, 70, 70);
+}
+
+#wrapper {
+    width: 900px;
+    margin: auto;
+    background-color: rgb(164, 227, 154);
+
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-image: url(lights.jpeg);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border: 4px dotted plum;
+    border-radius: 10px;
+
+}
+
+h2 {
+    color: black;
+    margin-left: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: goldenrod;
+    width: 225px;
+    box-shadow: 2px 3px 4px black;
+}
+
+nav {
+    border-top: thin solid rgb(240, 176, 14);
+    margin-top: 10px;
+    margin-left: 20px;
+    border-bottom: thin solid goldenrod;
+   
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: large;
+    display: block;
+    padding: 10px 10px;
+    height: 25px;
+    width: 100px;
+    color: silver;
+    background-color: rgb(197, 22, 22);
+    margin: 10px 10px;
+    border-radius: 3cm;
+    
+}
+
+nav a:hover {
+    background-color: green;
+    color: white;
+
+}
+
+figure {
+    border: thin solid black;
+    width: 512px;
+}
+
+#info {
+    width: 300px;
+    float: right;
+    margin-right: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    border-top: thin solid goldenrod;
+    line-height: 2cm;
+    font-style: oblique;
+    margin: 100px 10px;
+    text-shadow: 2px 3px 4px black;
+
+}
