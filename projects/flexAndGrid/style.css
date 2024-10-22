@@ -55,7 +55,9 @@ nav {
     justify-content: space-between;
 }
 
-.link1 {grid-area: area1;}
+footer {
+    margin-top: 20px;
+}
 
 .links {
     display: grid;
