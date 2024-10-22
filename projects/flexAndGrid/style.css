@@ -8,27 +8,28 @@ body {
     grid-template-areas: 
         "header header header"
         "navigation navigation navigation"
-        "aside1 main aside2"
+        "aside1 main main"
         "footer footer footer";
 }
 
 header{grid-area: header;}
 nav {grid-area: navigation;}
 .aside1 {grid-area: aside1;}
-.aside2 {grid-area: aside2;}
+main { grid-area: main;}
+footer {grid-area: footer;}
 
 
-.itemA { grid-area: main2;}
+.itemA { grid-area: header1;}
 .itemB { grid-area: header2;}
-.itemC { grid-area: header1;}
-.itemD { grid-area: main3;}
-.itemE { grid-area: main1;}
-.itemF { grid-area: header3;}
+.itemC { grid-area: header3;}
+.itemD { grid-area: main1;}
+.itemE { grid-area: main2;}
+.itemF { grid-area: main3;}
 
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 200px;
+    grid-template-rows: auto 400px;
     gap: 10px;
     grid-template-areas: 
     "header1 header2 header3"
@@ -39,8 +40,10 @@ nav {grid-area: navigation;}
     background-color: cadetblue;
     padding: 20px 10px;
     width: 200px;
+    box-shadow: 1px 2px 3px black ;
 }
 nav {
+    margin-bottom: 10px;
     background-color: lightgreen;
     display: block;
 }
@@ -50,4 +53,14 @@ nav {
     flex-wrap: wrap;
     gap: 5px;
     justify-content: space-between;
+}
+
+.link1 {grid-area: area1;}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+
 }
