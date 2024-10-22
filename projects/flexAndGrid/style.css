@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "navigation navigation navigation"
+        "aside1 main aside2"
+        "footer footer footer";
+}
+
+header{grid-area: header;}
+nav {grid-area: navigation;}
+.aside1 {grid-area: aside1;}
+.aside2 {grid-area: aside2;}
+
+
+.itemA { grid-area: main2;}
+.itemB { grid-area: header2;}
+.itemC { grid-area: header1;}
+.itemD { grid-area: main3;}
+.itemE { grid-area: main1;}
+.itemF { grid-area: header3;}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 200px;
+    gap: 10px;
+    grid-template-areas: 
+    "header1 header2 header3"
+    "main1 main2 main3";
+}
+
+.item {
+    background-color: cadetblue;
+    padding: 20px 10px;
+    width: 200px;
+}
+nav {
+    background-color: lightgreen;
+    display: block;
+}
+.spot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
