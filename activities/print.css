@@ -39,3 +39,10 @@ nav a {
 .card img{
     width: 100%;
 }
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: black;
+
+    }
+}
