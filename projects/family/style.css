@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: palegoldenrod;
+}
+
+nav a {
+    display: block;
+    padding: 5px 10px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.card{
+    width: 200px;
+    border: thin solid rgb(195, 173, 173);
+    box-shadow: 2px 3px 4px;
+    margin: 5px;
+
+}
+
+.card img{
+    width: 100%;
+}
+
