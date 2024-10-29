@@ -24,7 +24,7 @@ nav a {
 }
 
 .row{
-    display: flex;
+    display: grid;
     flex-direction: row;
     justify-content: space-between;
     
@@ -42,3 +42,43 @@ nav a {
     width: 100%;
 }
 
+.bar img {
+    width: 70%;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "navigation navigation navigation"
+        "aside1 main main"
+        "footer footer footer";
+}
+
+header{grid-area: header;}
+nav {grid-area: navigation;}
+.aside1 {grid-area: aside1;}
+main { grid-area: main;}
+footer {grid-area: footer;}
+
+.spot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+ .aside1 img {
+    width: 100%;
+ }
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
