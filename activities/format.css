@@ -1,3 +1,17 @@
 body {
     font-family: 'Times New Roman', Times, serif;
 }
+fieldset {
+    box-shadow: 3px 3px 3px lightslategray;
+    background-color: beige;
+}
+legend {
+    background-color: paleturquoise;
+    padding: 10px;
+}
+.frow {
+    display: flex;
+}
+.frow label {
+    width: 150px;
+}

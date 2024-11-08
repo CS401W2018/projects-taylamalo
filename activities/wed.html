@@ -12,38 +12,66 @@
     </header>
     <main>
         <form action="processing.html" method="post">
-            Date: <input type="date" name="date"><br>
-            First Name: <input type="text" name="first" value="Joes" required><br>
-            Last Name: <input type="text" name="last" placeholder="Last Name"><br>
-            Color: <input type="color" name="color"><br>
-            Password: <input type="password"name="pass"><br>
-            <input type="checkbox" name="remeber"> Remember Me <br>
-            Grade: 
-            <input type="radio" name="grade" value="Freshman"> Freshman<br>
-            <input type="radio" name="grade" value="Sophmore"> Sophmore <br>
-            <input type="radio" name="grade" value="Junior"> Junior <br>
-            <input type="radio" name="grade" value="Senior"> Senior <br>
-            <select name="state" id="state">
-                <option value="blank">State</option>
-                <option value="Hawaii">Hawaii</option>
-                <option value="Utah">Utah</option>
-                <option value="Colorado">Colorado</option>
-            </select><br>
-            <textarea name="comment" id=""></textarea>
-
-
-
-            <input type="submit">
+            <fieldset>
+                <div class="frow">
+                    <label for="date"> Date:</label>
+                    <input type="date" id="date" name="date">
+            </div>
+            </fieldset>
+            <fieldset>
+                <legend> Sign up!</legend>
+                <div class="frow">
+                    <label for="fname">First Name:</label>
+                    <input id="fname" type="text" name="first" value="Joes" required>
+                </div>
+                <div class="frow">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="last" placeholder="Last Name">
+                </div>
+                <div class="frow">
+                    <label for="color">Color:</label> 
+                    <input type="color" id="color" name="color">
+                </div>
+                <div class="frow"> 
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" name="pass">
+                </div>
+                <div class="frow">
+                    <label>
+                        <input type="checkbox" name="remeber"> Remember Me
+                    </label>
+                </div>
+                <div class="frow">
+                Grade: 
+                    <label><input type="radio" name="grade" value="Freshman"> Freshman</label>
+                    <label><input type="radio" name="grade" value="Sophmore"> Sophmore</label>
+                </div>
+                <div class="frow">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="blank">State</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Utah">Utah</option>
+                        <option value="Colorado">Colorado</option>
+                    </select>
+                </div>
+                <div class="frow">
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" id="comment"></textarea>
+                </div>
+                <input type="submit">
+                </fieldset>
     
         </form>
+        <fieldset>
+            <legend>Engagement Question Answers</legend>
+            <ul>
+                <li>The different ways to sytle the form is using div tags, using these you can more easily use the css to style. So that allows you to take out the break tags. You can also use field set tags and legend tags to add boxes and labels</li>
+                <li>Flex works really well for when we arent using responsive pages. 
 
-
-        <h3>Engagement Questions Answers</h3>
-        <ul>
-            <li>Action Tag.They are invisible on the form, called an attribute. It specifically tells where the data from your form is being sent to once it's been submitted .   </li>
-            <li>Method Tag. This specifically tells the form how the data will be sent when its submitted. </li>
-            <li>The difference between get and post is based on what your doing and if your going to change the files itself. Another things that makes them different is when you type in info in get it pastes it up in the URL but for the Post it hides the info you sumbitted in the searches as well. The are equal though in which is more secure. </li>
-        </ul>
+                </li>
+            </ul>
+        </fieldset>
     </main>
     <footer>
         <p>&copy; 2024 Tayla Malo</p>
