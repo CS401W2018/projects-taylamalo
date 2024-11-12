@@ -1,0 +1,41 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(sprinkles.webp);
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(172, 255, 255);
+    background-color: rgb(242, 83, 205);
+    border: thin solid gold;
+    margin-inline: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+fieldset {
+    box-shadow: 3px 3px 3px rgb(128, 200, 190);
+    background-color: rgb(250, 211, 217);
+    padding: 10px;
+}
+
+legend {
+    background-color: paleturquoise;
+    padding: 10px;
+}
+
+.frow {
+    display: flex;
+    margin: 10px;
+}
+
+.frow label {
+    width: 150px;
+}
+
+.in {
+    background-color: lightgoldenrodyellow;
+}
+.sub {
+    background-color: rgb(195, 132, 254);
+}

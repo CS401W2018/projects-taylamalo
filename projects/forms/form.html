@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Project</title>
+    <link rel="stylesheet" href="swag.css">
+</head>
+<body>
+    <header>
+        <h1> Tayla's Birthday Sign Up!</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="post">
+            <fieldset>
+                <div class="frow">
+                    <label for="date"> Ideal Party Date : </label>
+                    <input class="in" type="date" id="date" name="date">
+            </div>
+            </fieldset>
+            <fieldset>
+                <legend> Your Info</legend>
+                <div class="frow">
+                    <label for="fname">First Name:</label>
+                    <input class="in" id="fname" type="text" name="first" value="Joes" required>
+                </div>
+                <div class="frow">
+                    <label for="lname">Last Name:</label>
+                    <input class="in" type="text" id="lname" name="last" placeholder="Last Name">
+                </div>
+                <div class="frow"> 
+                    <label for="pass">Password:</label>
+                    <input class="in" type="password" id="pass" name="pass">
+                </div>
+                <div class="frow">
+                    Best form of Contact: 
+                        <label><input type="radio" name="contact" value="Phone"> Phone</label>
+                        <label><input type="radio" name="contact" value="Email"> Email</label>
+                    </div>
+                <div class="frow">
+                    <label for="num">Phone Number:</label>
+                    <input class="in" type="number" id="num" name="num">
+                </div>
+                <div class="frow">
+                    <label for="email">Email:</label>
+                    <input class="in" type="email" id="email" name="email">
+                </div>
+                <div class="frow">
+                    <label for="color">Your Fav Color :</label> 
+                    <input class="in" type="color" id="color" name="color">
+                </div>
+                <div class="frow">
+                    <label>
+                        <input type="checkbox" name="remeber"> Reminder texts
+                    </label>
+                </div>
+                <div class="frow">
+                    <label for="food">Food preferences </label>
+                    <select class="in" name="foods" id="food">
+                        <option value="blank">Food</option>
+                        <option value="American">American</option>
+                        <option value="Mexican">Mexican</option>
+                        <option value="Chinese">Chinese</option>
+                        <option value="Thai">Thai</option>
+                        <option value="Samoan">Samoan</option>
+                        <option value="Greek">Greek</option>
+                        <option value="Italian">Italian</option>
+                        <option value="Hawaiian">Hawaiian</option>
+                    </select>
+                </div>
+                <div class="frow">
+                    <label for="comment">Thoughts...</label>
+                    <textarea class="in" name="comment" id="comment"></textarea>
+                </div>
+                <input class="sub" type="submit">
+                </fieldset>
+    
+        </form>
+        <fieldset>
+            <legend>Extra Details!</legend>
+            <p>
+                For my birthday this year I really want to celebrate with you! If you are getting this please know you mean a lot to me. Please fill out the above information so I can better plan the party details! Love you! Thanks!
+            </p>
+            <ul>
+                <li>
+                     Once everyone fills out the form, I will contact everyone with the dates of the actual party!
+                </li>
+                <li> 
+                    I will do my best to get a variety of foods based on the preferences, but more details are to follow once the menu has been finalized. 
+                </li>
+                <li>
+                    I will do my best to gauge everyones needs and want but there is NO GUARANTEE that all preferences will be accommodated. Thank you for understanding.
+                </li>
+            </ul>
+        </fieldset>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tayla Malo</p>
+    </footer>
+</body>
+</html>
