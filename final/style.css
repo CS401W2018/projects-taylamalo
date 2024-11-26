@@ -1,0 +1,43 @@
+.card{
+    width: 200px;
+    border: thin solid rgb(195, 173, 173);
+    box-shadow: 2px 3px 4px;
+    margin: 10px;
+    float: left;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card p {
+    margin: 8px;
+}
+
+.t1{
+    
+    border: thin solid black
+}
+.t1 thead {
+    border: thin solid black;
+    background-color: lightblue;
+}
+.t1 th {
+    border: thin solid black;
+}
+
+.t1 tbody tr:nth-child(odd){
+    background-color: gray;
+}
+
+#current {
+    color: black;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+nav a {
+    padding: 5px;
+}
