@@ -88,7 +88,7 @@ nav a {
     margin: 8px;
 }
 
-#meal {
+.meal {
     border: thick solid rgb(69, 72, 74);
     text-align: center;
 }
