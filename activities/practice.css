@@ -1,0 +1,15 @@
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+    "header1 header2 header3"
+    "main1 main2 main3";
+}
+
+.itemA{grid-area: header2;}
+.itemB{ grid-area: header1;}
+.itemC{grid-area: header3;}
+.itemD{ grid-area: main3;}
+.itemE{grid-area: main2;}
+.itemF{grid-area: main1;}

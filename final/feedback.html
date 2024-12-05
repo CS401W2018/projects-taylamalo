@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms Project</title>
-    <link rel="stylesheet" href="swag.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1> Tayla's Birthday Sign Up!</h1>
+    <header class="header">
+        <h1> FeedBack Page!</h1>
     </header>
+    <nav>
+        <a href="main.html">Main</a> <a href="#">Ferry</a> <a href="accomidations.html">Accomidations</a> <a href="food.html">Food </a> <a href="activities.html">Activities</a> <a  href="Locallife.html">Local Life</a> <a id="current" href="feedback.html">Feedback</a>
+    </nav>
     <main>
         <form action="processing.html" method="post">
             <fieldset>
                 <div class="frow">
-                    <label for="date"> Ideal Party Date : </label>
+                    <label for="date"> Visiting Date : </label>
                     <input class="in" type="date" id="date" name="date">
             </div>
             </fieldset>
@@ -27,10 +30,6 @@
                 <div class="frow">
                     <label for="lname">Last Name:</label>
                     <input class="in" type="text" id="lname" name="last" placeholder="Last Name">
-                </div>
-                <div class="frow"> 
-                    <label for="pass">Password:</label>
-                    <input class="in" type="password" id="pass" name="pass">
                 </div>
                 <div class="frow">
                     Best form of Contact: 
@@ -46,35 +45,30 @@
                     <input class="in" type="email" id="email" name="email">
                 </div>
                 <div class="frow">
-                    <label for="color">Your Fav Color :</label> 
-                    <input class="in" type="color" id="color" name="color">
-                </div>
-                <div class="frow">
                     <label>
-                        <input type="checkbox" name="remeber"> Reminder texts
+                        <input type="checkbox" name="remeber"> Information Update texts
                     </label>
                 </div>
                 <div class="frow">
-                    <label for="food">Food preferences </label>
-                    <select class="in" name="foods" id="food">
-                        <option value="blank">Food</option>
-                        <option value="American">American</option>
-                        <option value="Mexican">Mexican</option>
-                        <option value="Chinese">Chinese</option>
-                        <option value="Thai">Thai</option>
-                        <option value="Samoan">Samoan</option>
-                        <option value="Greek">Greek</option>
-                        <option value="Italian">Italian</option>
-                        <option value="Hawaiian">Hawaiian</option>
+                    <label for="food"> Resident State </label>
+                    <select class="in" name="states" id="state">
+                        <option value="blank">State</option>
+                        <option value="American">Washington</option>
+                        <option value="Mexican">Oregon</option>
+                        <option value="Chinese">Idaho</option>
+                        <option value="Thai">Califonia</option>
+                        <option value="Samoan">Montana</option>
+                        <option value="Greek">Nevada</option>
+                        <option value="Italian">Utah</option>
+                        <option value="Hawaiian">Other</option>
                     </select>
                 </div>
                 <div class="frow">
-                    <label for="comment">Thoughts...</label>
+                    <label for="comment">Was this page helpful?</label>
                     <textarea class="in" name="comment" id="comment"></textarea>
                 </div>
                 <input class="sub" type="submit">
                 </fieldset>
-    
         </form>
     </main>
     <footer>
