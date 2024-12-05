@@ -116,5 +116,11 @@ nav a {
     .container {
         flex-direction: column;
     }
-    
+    .frow {
+        flex-direction: column;
+    }
+    .frow label {
+        text-align: left;
+    }
+
 }
