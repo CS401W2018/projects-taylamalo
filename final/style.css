@@ -104,6 +104,11 @@ nav a {
     background-color: rgb(194, 216, 216);
 }
 
+.pic {
+    display: block;
+    margin: 20px;
+}
+
 @media only screen and (max-width: 600px) {
     nav{
         flex-direction: column;
